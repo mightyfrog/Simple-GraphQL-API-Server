@@ -1,0 +1,40 @@
+{
+  "movie": {
+    "title": "The Shining",
+    "year": 1980,
+    "rating": 8.4
+  }
+}
+
+{
+  "movie": {
+    "title": "El Orfanato",
+    "year": 2007,
+    "rating": 7.4
+  }
+}
+
+{
+  "movie": {
+    "title": "The Texas Chainsaw Massacre",
+    "year": 1974,
+    "rating": 7.5
+  }
+}
+
+{
+  "movie": {
+    "title": "Mama",
+    "year": 2010,
+    "rating": 6.2
+  }
+}
+
+{
+  "movie": {
+    "title": "Let the Right One In",
+    "year": 2008,
+    "rating": 8.0
+  }
+}
+
