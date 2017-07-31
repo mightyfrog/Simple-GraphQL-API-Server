@@ -26,9 +26,11 @@ The server starts running on localhost: http://localhost:4000/graphql
 ```
 - movie(id: ID!): Movie
 ```javascript
-movie(id:"8e989b68-34a6-40ca-a33b-e0b7f7420cdc") {
-  id
-  title
+{
+  movie(id:"8e989b68-34a6-40ca-a33b-e0b7f7420cdc") {
+    id
+    title
+  }
 }
 ```
 ## Mutation:
