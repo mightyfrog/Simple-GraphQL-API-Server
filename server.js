@@ -3,8 +3,6 @@ var graphqlHTTP = require('express-graphql');
 var { buildSchema } = require('graphql');
 var uuidV4 = require('uuid/v4');
 
-var movies = {}
-
 var schema = buildSchema(`
   type Movie {
       id: ID!
@@ -29,6 +27,8 @@ var schema = buildSchema(`
   }
 `)
 
+var movies = {}
+
 var root = {
     allMovies: function() {
         return Object.keys(movies).map(function(k) { return movies[k] })
@@ -51,7 +51,7 @@ var root = {
 
         return item;
     }
-};
+}
 
 var app = express();
 app.use('/graphql', graphqlHTTP({ schema: schema, rootValue: root, graphiql: true }));
